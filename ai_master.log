@@ -1,0 +1,1168 @@
+(AI) [30022274976] Debug: DroneHAL type created
+(AI) [30025335520] Info: Building GroundTruth...
+(AI) [30025441600] Info: GroundTruth initialized
+(AI) [30025514944] Info: Building CameraGST(0) object...
+(AI) [30025563776] Info: Building CameraLive object...
+(AI) [30025589856] Info: Building CameraGST(1) object...
+(AI) [30025606944] Info: Building CameraLive object...
+(AI) [30025714208] Info: Building DAN object... 
+(AI) [30025835680] Info: Creating SOCK_DAN_2_AI: /tmp/to_ai.socket
+(AI) [30025855264] Info: Creating SOCK_AI_2_DAN: /tmp/to_dan.socket
+(AI) [30028862912] Info: DAN initialized
+(AI) [30029377472] Info: GPIO129 initialized
+(AI) [30029444032] Debug: DroneHAL::init_cam0 fps: 2
+(AI) [30030049568] Info: Starting image save thread...
+(AI) [30031119840] Info: Running event loop for DAN data
+(AI) [30073278624] Info: CameraLive initialized (0), (2)
+(AI) [30073620256] Info: Camera indices 0/2 saving at 2 hz
+(AI) [30074387456] Info: Starting image update thread...
+(AI) [30117953536] Info: CameraLive initialized (4), (3)
+(AI) [30118184960] Info: Camera indices 4/3 saving at 2 hz
+(AI) [30118769472] Info: Starting image update thread...
+(AI) [30517484768] Info: Argus Version: 0.97.3 (multi-process)
+
+(AI) [30517822208] Debug: PRODUCER: Launching consumer thread
+(AI) [30520546144] Debug: PRODUCER: Starting right 1 producer...
+(AI) [30520546144] Debug: PRODUCER: Starting right 1 producer...
+(AI) [30520589088] Debug: CONSUMER: Waiting until right 1 producer is created...
+(AI) [30643858944] Debug: PRODUCER: Creating right 1 stream...
+(AI) [30724865568] Debug: CONSUMER: Waiting until right 1 producer is connected...
+(AI) [30740410112] Debug: PRODUCER: Starting left 1 producer...
+(AI) [30740410112] Debug: PRODUCER: Starting left 1 producer...
+(AI) [30740414016] Debug: CONSUMER: Right 1 Producer has connected; continuing.
+
+(AI) [30777608736] Debug: PRODUCER: Creating left 1 stream...
+(AI) [32008234720] Debug: CONSUMER: Right 1 started after 62
+
+(AI) [32008340640] Debug: CONSUMER: Waiting until left 1 producer is created...
+(AI) [32008709824] Debug: CONSUMER: Waiting until left 1 producer is connected...
+(AI) [32015163904] Debug: CONSUMER: Left 1 Producer has connected; continuing.
+
+(AI) [32015252512] Debug: PRODUCER: Starting right 2 producer...
+(AI) [32057988256] Debug: PRODUCER: Creating right 2 stream...
+(AI) [33288851328] Debug: CONSUMER: Left 1 started after 62
+
+(AI) [33288968032] Debug: CONSUMER: Waiting until right 2 producer is created...
+(AI) [33289419360] Debug: CONSUMER: Waiting until right 2 producer is connected...
+(AI) [33300939552] Debug: CONSUMER: Right 2 Producer has connected; continuing.
+
+(AI) [33300939552] Debug: CONSUMER: Right 2 Producer has connected; continuing.
+
+(AI) [33300952224] Debug: PRODUCER: Starting left 2 producer...
+(AI) [33336671200] Debug: PRODUCER: Creating left 2 stream...
+(AI) [34568661600] Debug: CONSUMER: Right 2 started after 59
+
+(AI) [34568774560] Debug: CONSUMER: Waiting until left 2 producer is created...
+(AI) [34569281824] Debug: CONSUMER: Waiting until left 2 producer is connected...
+(AI) [34576141056] Debug: CONSUMER: Left 2 Producer has connected; continuing.
+
+(AI) [34585204704] Info: Building Gyroscope...
+(AI) [34585300992] Info: Building GyroscopeBMI088...
+(AI) [34585326720] Info: Gyro initialized
+(AI) [34618607200] Info: Building Accelerometer...
+(AI) [34618716640] Info: Building AccelerometerBMI088...
+(AI) [34618744544] Info: Accel initialized
+(AI) [34635421792] Info: Building Rangefinder...
+(AI) [34635570752] Info: Building RangefinderGarminV3...
+(AI) [34635598080] Info: Ranger initialized
+(AI) [35852118176] Debug: CONSUMER: Left 2 started after 62
+
+(AI) [35852257408] Debug: CONSUMER: Waiting until all producers are connected...
+(AI) [35852279616] Debug: CONSUMER: Producers have connected; continuing.
+(AI) [35870278304] Debug: Cameras capture rate: 0 FPS
+(AI) [36012852544] Debug: Cameras capture rate: 4 FPS
+(AI) [37009109440] Debug: Cameras capture rate: 57 FPS
+(AI) [38009839232] Debug: Cameras capture rate: 59 FPS
+(AI) [39012643840] Debug: Cameras capture rate: 60 FPS
+(AI) [40016513088] Debug: Cameras capture rate: 60 FPS
+(AI) [41003887168] Debug: Cameras capture rate: 59 FPS
+(AI) [42004478848] Debug: Cameras capture rate: 60 FPS
+(AI) [43007679616] Debug: Cameras capture rate: 59 FPS
+(AI) [44013169216] Debug: Cameras capture rate: 59 FPS
+(AI) [45016157664] Debug: Cameras capture rate: 59 FPS
+(AI) [46002330144] Debug: Cameras capture rate: 59 FPS
+(AI) [46988072928] Info: Sent DAN PRELOAD_COMPLETE packet: 1
+
+(AI) [47006032416] Debug: Cameras capture rate: 60 FPS
+(AI) [48020049824] Debug: Cameras capture rate: 36 FPS
+(AI) [49011208096] Debug: Cameras capture rate: 46 FPS
+(AI) [49054783200] Debug: User AI created
+(AI) [49057365568] Error: Unknown uncalibrated drone. /home/airr/mavlab.ini not found
+(AI) [49057596736] Info: Sequence ID for image logging: 322
+
+(AI) [49566207168] Info: Loading serialized GateNet model from /opt/user_code/resource/GateNet_v6_6_x360.trt
+
+(AI) [50016922784] Debug: Cameras capture rate: 57 FPS
+(AI) [51001861120] Debug: Cameras capture rate: 46 FPS
+(AI) [52005481600] Debug: Cameras capture rate: 57 FPS
+(AI) [53006297056] Debug: Cameras capture rate: 55 FPS
+(AI) [54014090912] Debug: Cameras capture rate: 54 FPS
+(AI) [55019405408] Debug: Cameras capture rate: 56 FPS
+(AI) [56000253856] Debug: Cameras capture rate: 53 FPS
+(AI) [56219161696] Info: Info: GateNet model loaded
+
+(AI) [56223946432] Debug: V7.8_DESESPERADO
+(AI) [56224069568] Debug: SETUP_FOR_HEAT_3
+(AI) [56234774528] Info: DroneHAL initialized with: 0x0
+(AI) [56235312384] Info: RANSAC: Job working
+
+(AI) [56235431712] Debug: VISION: Thread working
+
+(AI) [56235551744] Debug: VISION LOGGING: Thread working
+
+(AI) [56299416384] Info: Waiting for drone ready...
+(AI) [57003533568] Debug: Cameras capture rate: 58 FPS
+(AI) [58005880864] Debug: Cameras capture rate: 60 FPS
+(AI) [59011533152] Debug: Cameras capture rate: 60 FPS
+(AI) [60014193536] Debug: Cameras capture rate: 60 FPS
+(AI) [61015518496] Debug: Cameras capture rate: 60 FPS
+(AI) [62004545824] Debug: Cameras capture rate: 59 FPS
+(AI) [63009093888] Debug: Cameras capture rate: 60 FPS
+(AI) [64010676096] Debug: Cameras capture rate: 60 FPS
+(AI) [65013817888] Debug: Cameras capture rate: 60 FPS
+(AI) [66000436096] Debug: Cameras capture rate: 59 FPS
+(AI) [67003697952] Debug: Cameras capture rate: 58 FPS
+(AI) [68018078144] Debug: Cameras capture rate: 60 FPS
+(AI) [69008680992] Debug: Cameras capture rate: 58 FPS
+(AI) [70013031296] Debug: Cameras capture rate: 59 FPS
+(AI) [71015388288] Debug: Cameras capture rate: 60 FPS
+(AI) [72001022176] Debug: Cameras capture rate: 59 FPS
+(AI) [73007942816] Debug: Cameras capture rate: 59 FPS
+(AI) [74003255072] Debug: Cameras capture rate: 57 FPS
+(AI) [75012378656] Debug: Cameras capture rate: 59 FPS
+(AI) [76014148608] Debug: Cameras capture rate: 60 FPS
+(AI) [77001617632] Debug: Cameras capture rate: 59 FPS
+(AI) [78006036928] Debug: Cameras capture rate: 59 FPS
+(AI) [79009979520] Debug: Cameras capture rate: 59 FPS
+(AI) [80007986976] Debug: Cameras capture rate: 58 FPS
+(AI) [81014796480] Debug: Cameras capture rate: 60 FPS
+(AI) [82011075648] Debug: Cameras capture rate: 59 FPS
+(AI) [83004373056] Debug: Cameras capture rate: 58 FPS
+(AI) [84008909984] Debug: Cameras capture rate: 60 FPS
+(AI) [85009681408] Debug: Cameras capture rate: 59 FPS
+(AI) [86013936288] Debug: Cameras capture rate: 60 FPS
+(AI) [87016695744] Debug: Cameras capture rate: 60 FPS
+(AI) [88003501664] Debug: Cameras capture rate: 59 FPS
+(AI) [89006590848] Debug: Cameras capture rate: 60 FPS
+(AI) [90008437760] Debug: Cameras capture rate: 60 FPS
+(AI) [91014462976] Debug: Cameras capture rate: 60 FPS
+(AI) [92000730016] Debug: Cameras capture rate: 59 FPS
+(AI) [93002103552] Debug: Cameras capture rate: 60 FPS
+(AI) [94005475648] Debug: Cameras capture rate: 60 FPS
+(AI) [95009442784] Debug: Cameras capture rate: 60 FPS
+(AI) [96012705312] Debug: Cameras capture rate: 60 FPS
+(AI) [97001499488] Debug: Cameras capture rate: 59 FPS
+(AI) [98005133920] Debug: Cameras capture rate: 60 FPS
+(AI) [99006104928] Debug: Cameras capture rate: 58 FPS
+(AI) [100009477952] Debug: Cameras capture rate: 59 FPS
+(AI) [101012390624] Debug: Cameras capture rate: 58 FPS
+(AI) [102014832192] Debug: Cameras capture rate: 60 FPS
+(AI) [103001808384] Debug: Cameras capture rate: 55 FPS
+(AI) [104008093056] Debug: Cameras capture rate: 59 FPS
+(AI) [105008682560] Debug: Cameras capture rate: 59 FPS
+(AI) [106010951456] Debug: Cameras capture rate: 59 FPS
+(AI) [107017886496] Debug: Cameras capture rate: 59 FPS
+(AI) [108000325824] Debug: Cameras capture rate: 59 FPS
+(AI) [109006784320] Debug: Cameras capture rate: 58 FPS
+(AI) [110008223648] Debug: Cameras capture rate: 59 FPS
+(AI) [111014289696] Debug: Cameras capture rate: 58 FPS
+(AI) [112013663968] Debug: Cameras capture rate: 58 FPS
+(AI) [113000568704] Debug: Cameras capture rate: 57 FPS
+(AI) [114004561312] Debug: Cameras capture rate: 60 FPS
+(AI) [115005293984] Debug: Cameras capture rate: 60 FPS
+(AI) [116009301984] Debug: Cameras capture rate: 60 FPS
+(AI) [117013746176] Debug: Cameras capture rate: 60 FPS
+(AI) [118000729920] Debug: Cameras capture rate: 59 FPS
+(AI) [119003763424] Debug: Cameras capture rate: 60 FPS
+(AI) [120006292160] Debug: Cameras capture rate: 60 FPS
+(AI) [121009481120] Debug: Cameras capture rate: 60 FPS
+(AI) [122012957472] Debug: Cameras capture rate: 60 FPS
+(AI) [123000292160] Debug: Cameras capture rate: 59 FPS
+(AI) [124001236608] Debug: Cameras capture rate: 60 FPS
+(AI) [125004804896] Debug: Cameras capture rate: 60 FPS
+(AI) [126008670240] Debug: Cameras capture rate: 60 FPS
+(AI) [127012548544] Debug: Cameras capture rate: 60 FPS
+(AI) [128015508320] Debug: Cameras capture rate: 60 FPS
+(AI) [129016822496] Debug: Cameras capture rate: 60 FPS
+(AI) [130004822944] Debug: Cameras capture rate: 59 FPS
+(AI) [131006524096] Debug: Cameras capture rate: 60 FPS
+(AI) [132010371872] Debug: Cameras capture rate: 60 FPS
+(AI) [133014722048] Debug: Cameras capture rate: 60 FPS
+(AI) [134000516576] Debug: Cameras capture rate: 59 FPS
+(AI) [135005442592] Debug: Cameras capture rate: 59 FPS
+(AI) [136007941504] Debug: Cameras capture rate: 60 FPS
+(AI) [137011874592] Debug: Cameras capture rate: 60 FPS
+(AI) [138014144576] Debug: Cameras capture rate: 60 FPS
+(AI) [139001459936] Debug: Cameras capture rate: 59 FPS
+(AI) [140003439712] Debug: Cameras capture rate: 59 FPS
+(AI) [141007639584] Debug: Cameras capture rate: 60 FPS
+(AI) [142010893568] Debug: Cameras capture rate: 60 FPS
+(AI) [143013703264] Debug: Cameras capture rate: 60 FPS
+(AI) [144016930528] Debug: Cameras capture rate: 60 FPS
+(AI) [145004815168] Debug: Cameras capture rate: 59 FPS
+(AI) [146005161024] Debug: Cameras capture rate: 60 FPS
+(AI) [147008118560] Debug: Cameras capture rate: 60 FPS
+(AI) [148011095136] Debug: Cameras capture rate: 60 FPS
+(AI) [149013961696] Debug: Cameras capture rate: 60 FPS
+(AI) [150002475904] Debug: Cameras capture rate: 59 FPS
+(AI) [151006112704] Debug: Cameras capture rate: 60 FPS
+(AI) [152009802944] Debug: Cameras capture rate: 60 FPS
+(AI) [153012095552] Debug: Cameras capture rate: 60 FPS
+(AI) [154014261536] Debug: Cameras capture rate: 60 FPS
+(AI) [155003107680] Debug: Cameras capture rate: 59 FPS
+(AI) [156005524480] Debug: Cameras capture rate: 59 FPS
+(AI) [157006722272] Debug: Cameras capture rate: 60 FPS
+(AI) [158011785888] Debug: Cameras capture rate: 60 FPS
+(AI) [159013980480] Debug: Cameras capture rate: 60 FPS
+(AI) [160001655200] Debug: Cameras capture rate: 59 FPS
+(AI) [161005171840] Debug: Cameras capture rate: 60 FPS
+(AI) [162009727584] Debug: Cameras capture rate: 60 FPS
+(AI) [163009776288] Debug: Cameras capture rate: 59 FPS
+(AI) [164014132640] Debug: Cameras capture rate: 60 FPS
+(AI) [165017412992] Debug: Cameras capture rate: 60 FPS
+(AI) [166003663584] Debug: Cameras capture rate: 59 FPS
+(AI) [167007314144] Debug: Cameras capture rate: 60 FPS
+(AI) [168011187392] Debug: Cameras capture rate: 60 FPS
+(AI) [169013494400] Debug: Cameras capture rate: 60 FPS
+(AI) [170001375840] Debug: Cameras capture rate: 58 FPS
+(AI) [171001964896] Debug: Cameras capture rate: 60 FPS
+(AI) [172007695232] Debug: Cameras capture rate: 60 FPS
+(AI) [173010238848] Debug: Cameras capture rate: 60 FPS
+(AI) [174012832032] Debug: Cameras capture rate: 60 FPS
+(AI) [175015605792] Debug: Cameras capture rate: 60 FPS
+(AI) [176003242528] Debug: Cameras capture rate: 59 FPS
+(AI) [177006383008] Debug: Cameras capture rate: 60 FPS
+(AI) [178009461888] Debug: Cameras capture rate: 60 FPS
+(AI) [179011302144] Debug: Cameras capture rate: 60 FPS
+(AI) [180013615456] Debug: Cameras capture rate: 60 FPS
+(AI) [181002320320] Debug: Cameras capture rate: 59 FPS
+(AI) [182004611232] Debug: Cameras capture rate: 60 FPS
+(AI) [183008797952] Debug: Cameras capture rate: 60 FPS
+(AI) [184012839104] Debug: Cameras capture rate: 60 FPS
+(AI) [185014313696] Debug: Cameras capture rate: 60 FPS
+(AI) [186001857248] Debug: Cameras capture rate: 59 FPS
+(AI) [187004928256] Debug: Cameras capture rate: 60 FPS
+(AI) [188007616736] Debug: Cameras capture rate: 60 FPS
+(AI) [189010959584] Debug: Cameras capture rate: 60 FPS
+(AI) [190014552320] Debug: Cameras capture rate: 60 FPS
+(AI) [191000818880] Debug: Cameras capture rate: 59 FPS
+(AI) [192002267136] Debug: Cameras capture rate: 60 FPS
+(AI) [193007047616] Debug: Cameras capture rate: 60 FPS
+(AI) [194010211264] Debug: Cameras capture rate: 60 FPS
+(AI) [195013408224] Debug: Cameras capture rate: 60 FPS
+(AI) [196001707840] Debug: Cameras capture rate: 59 FPS
+(AI) [197001993408] Debug: Cameras capture rate: 60 FPS
+(AI) [198006979328] Debug: Cameras capture rate: 60 FPS
+(AI) [199009388544] Debug: Cameras capture rate: 60 FPS
+(AI) [200012656064] Debug: Cameras capture rate: 58 FPS
+(AI) [201001921824] Debug: Cameras capture rate: 59 FPS
+(AI) [202001622432] Debug: Cameras capture rate: 58 FPS
+(AI) [203003585344] Debug: Cameras capture rate: 60 FPS
+(AI) [204006924640] Debug: Cameras capture rate: 60 FPS
+(AI) [205012314720] Debug: Cameras capture rate: 60 FPS
+(AI) [206013756352] Debug: Cameras capture rate: 60 FPS
+(AI) [207002296640] Debug: Cameras capture rate: 59 FPS
+(AI) [208003742464] Debug: Cameras capture rate: 60 FPS
+(AI) [209010226016] Debug: Cameras capture rate: 60 FPS
+(AI) [210011837632] Debug: Cameras capture rate: 60 FPS
+(AI) [211015730240] Debug: Cameras capture rate: 60 FPS
+(AI) [212002286240] Debug: Cameras capture rate: 59 FPS
+(AI) [213002955552] Debug: Cameras capture rate: 60 FPS
+(AI) [214007704608] Debug: Cameras capture rate: 60 FPS
+(AI) [215011306400] Debug: Cameras capture rate: 60 FPS
+(AI) [216012046176] Debug: Cameras capture rate: 60 FPS
+(AI) [217000893216] Debug: Cameras capture rate: 59 FPS
+(AI) [218003062016] Debug: Cameras capture rate: 60 FPS
+(AI) [219007446368] Debug: Cameras capture rate: 60 FPS
+(AI) [220010396768] Debug: Cameras capture rate: 60 FPS
+(AI) [221001526432] Debug: Cameras capture rate: 58 FPS
+(AI) [222000566464] Debug: Cameras capture rate: 59 FPS
+(AI) [223003161728] Debug: Cameras capture rate: 60 FPS
+(AI) [224004576992] Debug: Cameras capture rate: 60 FPS
+(AI) [225009825856] Debug: Cameras capture rate: 60 FPS
+(AI) [226012034976] Debug: Cameras capture rate: 59 FPS
+(AI) [227015762688] Debug: Cameras capture rate: 60 FPS
+(AI) [228001814048] Debug: Cameras capture rate: 59 FPS
+(AI) [229006058080] Debug: Cameras capture rate: 60 FPS
+(AI) [230006823168] Debug: Cameras capture rate: 60 FPS
+(AI) [231012643680] Debug: Cameras capture rate: 60 FPS
+(AI) [232016182304] Debug: Cameras capture rate: 60 FPS
+(AI) [233000088192] Debug: Cameras capture rate: 59 FPS
+(AI) [234003438752] Debug: Cameras capture rate: 60 FPS
+(AI) [235007649440] Debug: Cameras capture rate: 60 FPS
+(AI) [236010615232] Debug: Cameras capture rate: 60 FPS
+(AI) [237013803904] Debug: Cameras capture rate: 60 FPS
+(AI) [238016907328] Debug: Cameras capture rate: 60 FPS
+(AI) [239002596224] Debug: Cameras capture rate: 59 FPS
+(AI) [240007419552] Debug: Cameras capture rate: 60 FPS
+(AI) [241009887680] Debug: Cameras capture rate: 60 FPS
+(AI) [242014542048] Debug: Cameras capture rate: 60 FPS
+(AI) [243017231680] Debug: Cameras capture rate: 60 FPS
+(AI) [244002635424] Debug: Cameras capture rate: 59 FPS
+(AI) [245007609728] Debug: Cameras capture rate: 60 FPS
+(AI) [246009827072] Debug: Cameras capture rate: 60 FPS
+(AI) [247013499968] Debug: Cameras capture rate: 60 FPS
+(AI) [248015155712] Debug: Cameras capture rate: 60 FPS
+(AI) [249002524032] Debug: Cameras capture rate: 59 FPS
+(AI) [250006548800] Debug: Cameras capture rate: 60 FPS
+(AI) [251008026848] Debug: Cameras capture rate: 60 FPS
+(AI) [252012710912] Debug: Cameras capture rate: 60 FPS
+(AI) [253014085248] Debug: Cameras capture rate: 60 FPS
+(AI) [254003873408] Debug: Cameras capture rate: 59 FPS
+(AI) [255004870592] Debug: Cameras capture rate: 60 FPS
+(AI) [256011171744] Debug: Cameras capture rate: 60 FPS
+(AI) [257010272640] Debug: Cameras capture rate: 60 FPS
+(AI) [258014840608] Debug: Cameras capture rate: 60 FPS
+(AI) [259000745536] Debug: Cameras capture rate: 59 FPS
+(AI) [260005317632] Debug: Cameras capture rate: 60 FPS
+(AI) [261008699584] Debug: Cameras capture rate: 60 FPS
+(AI) [262012296352] Debug: Cameras capture rate: 59 FPS
+(AI) [263014526848] Debug: Cameras capture rate: 60 FPS
+(AI) [264017934848] Debug: Cameras capture rate: 60 FPS
+(AI) [265005101664] Debug: Cameras capture rate: 59 FPS
+(AI) [266007709792] Debug: Cameras capture rate: 60 FPS
+(AI) [267011653728] Debug: Cameras capture rate: 60 FPS
+(AI) [268012974400] Debug: Cameras capture rate: 60 FPS
+(AI) [269001380832] Debug: Cameras capture rate: 59 FPS
+(AI) [270002545856] Debug: Cameras capture rate: 60 FPS
+(AI) [271007340288] Debug: Cameras capture rate: 60 FPS
+(AI) [272010968544] Debug: Cameras capture rate: 60 FPS
+(AI) [273013592928] Debug: Cameras capture rate: 60 FPS
+(AI) [274016898176] Debug: Cameras capture rate: 60 FPS
+(AI) [275003616704] Debug: Cameras capture rate: 59 FPS
+(AI) [276006769376] Debug: Cameras capture rate: 60 FPS
+(AI) [277007921408] Debug: Cameras capture rate: 60 FPS
+(AI) [278012721376] Debug: Cameras capture rate: 60 FPS
+(AI) [279015651520] Debug: Cameras capture rate: 60 FPS
+(AI) [280000837120] Debug: Cameras capture rate: 59 FPS
+(AI) [281006099232] Debug: Cameras capture rate: 60 FPS
+(AI) [282009412288] Debug: Cameras capture rate: 60 FPS
+(AI) [283012172160] Debug: Cameras capture rate: 60 FPS
+(AI) [284016314624] Debug: Cameras capture rate: 60 FPS
+(AI) [285000142272] Debug: Cameras capture rate: 59 FPS
+(AI) [286004828512] Debug: Cameras capture rate: 60 FPS
+(AI) [287009735776] Debug: Cameras capture rate: 60 FPS
+(AI) [288013582464] Debug: Cameras capture rate: 60 FPS
+(AI) [289014685376] Debug: Cameras capture rate: 60 FPS
+(AI) [290001635328] Debug: Cameras capture rate: 59 FPS
+(AI) [291002850208] Debug: Cameras capture rate: 60 FPS
+(AI) [292007874336] Debug: Cameras capture rate: 60 FPS
+(AI) [293009560128] Debug: Cameras capture rate: 60 FPS
+(AI) [294013169760] Debug: Cameras capture rate: 60 FPS
+(AI) [295000748000] Debug: Cameras capture rate: 59 FPS
+(AI) [296003630208] Debug: Cameras capture rate: 59 FPS
+(AI) [297007602752] Debug: Cameras capture rate: 60 FPS
+(AI) [298010131392] Debug: Cameras capture rate: 60 FPS
+(AI) [299014228480] Debug: Cameras capture rate: 60 FPS
+(AI) [300015093728] Debug: Cameras capture rate: 60 FPS
+(AI) [301004272320] Debug: Cameras capture rate: 59 FPS
+(AI) [302005862656] Debug: Cameras capture rate: 59 FPS
+(AI) [303009815456] Debug: Cameras capture rate: 60 FPS
+(AI) [304012951040] Debug: Cameras capture rate: 60 FPS
+(AI) [305016473248] Debug: Cameras capture rate: 60 FPS
+(AI) [306002562944] Debug: Cameras capture rate: 59 FPS
+(AI) [307007325056] Debug: Cameras capture rate: 60 FPS
+(AI) [308009096128] Debug: Cameras capture rate: 60 FPS
+(AI) [309011856640] Debug: Cameras capture rate: 60 FPS
+(AI) [310015259456] Debug: Cameras capture rate: 60 FPS
+(AI) [311000505952] Debug: Cameras capture rate: 59 FPS
+(AI) [312006108096] Debug: Cameras capture rate: 60 FPS
+(AI) [313008754880] Debug: Cameras capture rate: 60 FPS
+(AI) [314009998752] Debug: Cameras capture rate: 60 FPS
+(AI) [315014475584] Debug: Cameras capture rate: 60 FPS
+(AI) [316001081984] Debug: Cameras capture rate: 59 FPS
+(AI) [317004944320] Debug: Cameras capture rate: 60 FPS
+(AI) [318008399040] Debug: Cameras capture rate: 60 FPS
+(AI) [319010492064] Debug: Cameras capture rate: 60 FPS
+(AI) [320014135104] Debug: Cameras capture rate: 60 FPS
+(AI) [321000806848] Debug: Cameras capture rate: 59 FPS
+(AI) [322003184960] Debug: Cameras capture rate: 60 FPS
+(AI) [323007930720] Debug: Cameras capture rate: 60 FPS
+(AI) [324010939168] Debug: Cameras capture rate: 60 FPS
+(AI) [325012530688] Debug: Cameras capture rate: 60 FPS
+(AI) [326016769152] Debug: Cameras capture rate: 60 FPS
+(AI) [327002234016] Debug: Cameras capture rate: 59 FPS
+(AI) [328006415744] Debug: Cameras capture rate: 60 FPS
+(AI) [329011234208] Debug: Cameras capture rate: 60 FPS
+(AI) [330012690240] Debug: Cameras capture rate: 60 FPS
+(AI) [331016922016] Debug: Cameras capture rate: 60 FPS
+(AI) [332005041600] Debug: Cameras capture rate: 59 FPS
+(AI) [333003903840] Debug: Cameras capture rate: 60 FPS
+(AI) [334009336256] Debug: Cameras capture rate: 60 FPS
+(AI) [335010475776] Debug: Cameras capture rate: 60 FPS
+(AI) [336014952160] Debug: Cameras capture rate: 60 FPS
+(AI) [337002376736] Debug: Cameras capture rate: 59 FPS
+(AI) [338005123712] Debug: Cameras capture rate: 60 FPS
+(AI) [339007565664] Debug: Cameras capture rate: 60 FPS
+(AI) [340010933984] Debug: Cameras capture rate: 60 FPS
+(AI) [341014935904] Debug: Cameras capture rate: 60 FPS
+(AI) [342017986560] Debug: Cameras capture rate: 60 FPS
+(AI) [343002802816] Debug: Cameras capture rate: 59 FPS
+(AI) [344008870240] Debug: Cameras capture rate: 60 FPS
+(AI) [345010276320] Debug: Cameras capture rate: 60 FPS
+(AI) [346014282784] Debug: Cameras capture rate: 60 FPS
+(AI) [347017669600] Debug: Cameras capture rate: 60 FPS
+(AI) [348002416704] Debug: Cameras capture rate: 59 FPS
+(AI) [349006121120] Debug: Cameras capture rate: 60 FPS
+(AI) [350010402208] Debug: Cameras capture rate: 60 FPS
+(AI) [351011874592] Debug: Cameras capture rate: 60 FPS
+(AI) [352000127808] Debug: Cameras capture rate: 59 FPS
+(AI) [353003056096] Debug: Cameras capture rate: 60 FPS
+(AI) [354005443776] Debug: Cameras capture rate: 60 FPS
+(AI) [355010691488] Debug: Cameras capture rate: 60 FPS
+(AI) [356013282016] Debug: Cameras capture rate: 60 FPS
+(AI) [357015453408] Debug: Cameras capture rate: 60 FPS
+(AI) [358002710944] Debug: Cameras capture rate: 59 FPS
+(AI) [359007482240] Debug: Cameras capture rate: 60 FPS
+(AI) [360008895072] Debug: Cameras capture rate: 60 FPS
+(AI) [361011932992] Debug: Cameras capture rate: 60 FPS
+(AI) [362015613984] Debug: Cameras capture rate: 60 FPS
+(AI) [363002587008] Debug: Cameras capture rate: 59 FPS
+(AI) [364005503296] Debug: Cameras capture rate: 60 FPS
+(AI) [365009465280] Debug: Cameras capture rate: 60 FPS
+(AI) [366010895104] Debug: Cameras capture rate: 60 FPS
+(AI) [367016343296] Debug: Cameras capture rate: 60 FPS
+(AI) [368000284672] Debug: Cameras capture rate: 59 FPS
+(AI) [369005035584] Debug: Cameras capture rate: 60 FPS
+(AI) [370007244768] Debug: Cameras capture rate: 60 FPS
+(AI) [371011099520] Debug: Cameras capture rate: 60 FPS
+(AI) [372015397184] Debug: Cameras capture rate: 60 FPS
+(AI) [373015401952] Debug: Cameras capture rate: 60 FPS
+(AI) [374005174976] Debug: Cameras capture rate: 59 FPS
+(AI) [375005406432] Debug: Cameras capture rate: 60 FPS
+(AI) [376009919296] Debug: Cameras capture rate: 60 FPS
+(AI) [377012767520] Debug: Cameras capture rate: 60 FPS
+(AI) [378018046432] Debug: Cameras capture rate: 60 FPS
+(AI) [379003112800] Debug: Cameras capture rate: 59 FPS
+(AI) [380005731776] Debug: Cameras capture rate: 60 FPS
+(AI) [381007867648] Debug: Cameras capture rate: 60 FPS
+(AI) [382012570912] Debug: Cameras capture rate: 60 FPS
+(AI) [383015113248] Debug: Cameras capture rate: 60 FPS
+(AI) [384002449216] Debug: Cameras capture rate: 59 FPS
+(AI) [385006116640] Debug: Cameras capture rate: 60 FPS
+(AI) [385268485440] Info: Launch socket event
+(AI) [385268700064] Info: Read 6 bytes ENABLE
+(AI) [385268803264] Debug: DAN msg: ENABLE
+(AI) [385268835424] Info: Enable received
+(AI) [385268849792] Info: Race enabled
+(AI) [385280895232] Info: Got the enable, off to the races!
+(AI) [385281076032] Debug: signals: -819 0 0 0 @ 385281074624
+(AI) [385301257696] Debug: signals: -819 0 0 0 @ 385301253856
+(AI) [385321482368] Debug: signals: -819 0 0 0 @ 385321479360
+(AI) [385343959168] Debug: signals: -819 0 0 0 @ 385343955168
+(AI) [385365538976] Info: Drone ready to fly at 385.365534048
+(AI) [385365610336] Debug: User AI initialized
+(AI) [385365630400] Info: Start thread 0 free_running: 0
+(AI) [385365743744] Info: Start thread 1 free_running: 0
+(AI) [385368460960] Info: RATE_RANGEFINDER SCHED_RR thread spawned
+(AI) [385368548608] Info: Start thread 2 free_running: 0
+(AI) [385368595232] Info: Running event loop for thread RATE_RANGEFINDER...
+(AI) [385371646912] Info: RATE_CONTROL_SIGNALS SCHED_RR thread spawned
+(AI) [385371709152] Info: Start thread 3 free_running: 0
+(AI) [385372391040] Info: Running event loop for thread RATE_CONTROL_SIGNALS...
+(AI) [385376918528] Info: Start thread 4 free_running: 0
+(AI) [385377058880] Info: Start thread 5 free_running: 0
+(AI) [385381286336] Info: RATE_HEARTBEAT SCHED_RR thread spawned
+(AI) [385381347232] Info: Running event loop for thread RATE_HEARTBEAT...
+(AI) [385395957536] Debug: signals: -819 0 0 0 @ 385395927552
+(AI) [385409522048] Debug: signals: -819 0 0 0 @ 385409518496
+(AI) [385424864736] Info: CONTROL: Job working
+(AI) [385428777088] Debug: signals: -819 0 0 0 @ 385428749088
+(AI) [385448959936] Debug: signals: -819 0 0 0 @ 385448957120
+(AI) [385467727040] Debug: CAMERA: Job working
+
+(AI) [385469220960] Debug: signals: -819 0 0 0 @ 385469217216
+(AI) [385489478176] Debug: signals: -819 0 0 0 @ 385489475264
+(AI) [385508685152] Debug: signals: -819 0 0 0 @ 385508682368
+(AI) [385528850528] Debug: signals: -819 0 0 0 @ 385528847104
+(AI) [385549076064] Debug: signals: -819 0 0 0 @ 385549073184
+(AI) [385569250848] Debug: signals: -819 0 0 0 @ 385569248096
+(AI) [385589454880] Debug: signals: -819 0 0 0 @ 385589451744
+(AI) [385608666944] Debug: signals: -819 0 0 0 @ 385608663488
+(AI) [385628925920] Debug: signals: -819 0 0 0 @ 385628922336
+(AI) [385649189792] Debug: signals: -819 0 0 0 @ 385649186464
+(AI) [385669379584] Debug: signals: -819 0 0 0 @ 385669376512
+(AI) [385689568864] Debug: signals: 439 -18 18 40 @ 385689565312
+(AI) [385708783072] Debug: signals: 444 -36 36 36 @ 385708774560
+(AI) [385729072448] Debug: signals: 446 -53 53 32 @ 385729036352
+(AI) [385749376832] Debug: signals: 447 -66 70 28 @ 385749373984
+(AI) [385752874272] Info: Launch socket event
+(AI) [385753065184] Info: Read 6 bytes ENABLE
+(AI) [385753110080] Debug: DAN msg: ENABLE
+(AI) [385753136288] Info: Enable received
+(AI) [385753151776] Info: Race enabled
+(AI) [385768700928] Debug: signals: 447 -62 85 24 @ 385768697728
+(AI) [385788909024] Debug: signals: 447 -62 102 19 @ 385788905984
+(AI) [385809153600] Debug: signals: 445 -62 101 15 @ 385809149728
+(AI) [385829366976] Debug: signals: 441 -62 98 10 @ 385829364096
+(AI) [385849578624] Debug: signals: 438 -62 91 5 @ 385849575424
+(AI) [385868819936] Debug: signals: 438 -61 81 1 @ 385868816960
+(AI) [385889087040] Debug: signals: 442 -58 69 -5 @ 385889084224
+(AI) [385909309760] Debug: signals: 459 -53 54 -9 @ 385909306112
+(AI) [385929592640] Debug: signals: 490 -46 38 -10 @ 385929589440
+(AI) [385948892160] Debug: signals: 526 -38 23 -11 @ 385948888608
+(AI) [385969099040] Debug: signals: 566 -28 11 -13 @ 385969096352
+(AI) [385989281600] Debug: signals: 606 -20 2 -15 @ 385989277088
+(AI) [386009552704] Debug: signals: 659 -11 -6 -16 @ 386009548384
+(AI) [386011045024] Debug: Cameras capture rate: 49 FPS
+(AI) [386028879904] Debug: signals: 697 -4 -11 -18 @ 386028834816
+(AI) [386049134208] Debug: signals: 730 3 -14 -19 @ 386049130080
+(AI) [386069374112] Debug: signals: 765 8 -15 -20 @ 386069371264
+(AI) [386088601056] Debug: signals: 778 12 -15 -20 @ 386088598688
+(AI) [386108823520] Debug: signals: 781 14 -14 -20 @ 386108820928
+(AI) [386129091392] Debug: signals: 776 14 -12 -20 @ 386129088224
+(AI) [386149276896] Debug: signals: 763 13 -9 -19 @ 386149274464
+(AI) [386169478752] Debug: signals: 748 11 -7 -19 @ 386169476096
+(AI) [386188662272] Debug: signals: 735 8 -5 -18 @ 386188658528
+(AI) [386208843264] Debug: signals: 715 5 -3 -18 @ 386208839968
+(AI) [386229060192] Debug: signals: 705 1 -3 -17 @ 386229052288
+(AI) [386249299360] Debug: signals: 693 -2 -2 -17 @ 386249296064
+(AI) [386257994656] Info: Launch socket event
+(AI) [386258110720] Info: Read 6 bytes ENABLE
+(AI) [386258154624] Debug: DAN msg: ENABLE
+(AI) [386258166880] Info: Enable received
+(AI) [386258185600] Info: Race enabled
+(AI) [386269488800] Debug: signals: 688 -5 -2 -16 @ 386269483520
+(AI) [386288792640] Debug: signals: 684 -8 -3 -16 @ 386288786144
+(AI) [386309094816] Debug: signals: 682 -10 -3 -15 @ 386309091872
+(AI) [386329369792] Debug: signals: 681 -12 -4 -14 @ 386329350944
+(AI) [386349589824] Debug: signals: 682 -13 -4 -14 @ 386349586368
+(AI) [386368803200] Debug: signals: 683 -14 -5 -13 @ 386368799232
+(AI) [386389095840] Debug: signals: 684 -15 -6 -12 @ 386389092992
+(AI) [386409344352] Debug: signals: 686 -15 -6 -11 @ 386409341568
+(AI) [386429512640] Debug: signals: 556 -16 -7 -10 @ 386429508960
+(AI) [386448672896] Debug: signals: 354 -17 -8 -9 @ 386448670336
+(AI) [386468885184] Debug: signals: 190 -18 -9 -8 @ 386468882528
+(AI) [386489138432] Debug: signals: 96 -19 -10 -7 @ 386489135168
+(AI) [386509403040] Debug: signals: 45 -21 -11 -6 @ 386509400384
+(AI) [386528608096] Debug: signals: 58 -43 -32 -3 @ 386528605184
+(AI) [386548869440] Debug: signals: 71 -26 -47 -1 @ 386548866464
+(AI) [386569133856] Debug: signals: 78 -45 -61 0 @ 386569131616
+(AI) [386589364608] Debug: signals: 96 -32 -74 1 @ 386589357792
+(AI) [386609635232] Debug: signals: 130 -10 -89 3 @ 386609631232
+(AI) [386628884192] Debug: signals: 168 12 -87 4 @ 386628869408
+(AI) [386649158848] Debug: signals: 213 16 -80 5 @ 386649156640
+(AI) [386669392864] Debug: signals: 226 22 -73 6 @ 386669390464
+(AI) [386689583520] Debug: signals: 262 29 -64 8 @ 386689581152
+(AI) [386708770816] Debug: signals: 273 14 -56 10 @ 386708768416
+(AI) [386729041344] Debug: signals: 260 41 -48 11 @ 386729038592
+(AI) [386749279008] Debug: signals: 259 39 -33 12 @ 386749275776
+(AI) [386769515520] Debug: signals: 258 40 -28 13 @ 386769513408
+(AI) [386788721440] Debug: signals: 269 41 -23 13 @ 386788719200
+(AI) [386808990016] Debug: signals: 270 40 -18 14 @ 386808986560
+(AI) [386829219104] Debug: signals: 272 37 -15 14 @ 386829215264
+(AI) [386849441056] Debug: signals: 263 35 -13 14 @ 386849439072
+(AI) [386869627456] Debug: signals: 264 48 -11 13 @ 386869625024
+(AI) [386888840992] Debug: signals: 256 35 -10 13 @ 386888838400
+(AI) [386909082816] Debug: signals: 256 43 -9 14 @ 386909079968
+(AI) [386929313664] Debug: signals: 260 48 -8 14 @ 386929294912
+(AI) [386949535136] Debug: signals: 256 50 -7 15 @ 386949532864
+(AI) [386968703584] Debug: signals: 263 63 -1 14 @ 386968701440
+(AI) [386988872576] Debug: signals: 266 64 0 15 @ 386988870752
+(AI) [387009132128] Debug: signals: 259 65 -3 15 @ 387009128576
+(AI) [387014825952] Debug: Cameras capture rate: 58 FPS
+(AI) [387029339616] Debug: signals: 259 61 -6 14 @ 387029336608
+(AI) [387049671456] Debug: signals: 256 63 -7 14 @ 387049668128
+(AI) [387068880352] Debug: signals: 249 81 -12 14 @ 387068876832
+(AI) [387089061248] Debug: signals: 246 79 -12 13 @ 387089058720
+(AI) [387109314144] Debug: signals: 242 78 -7 13 @ 387109311584
+(AI) [387129508576] Debug: signals: 241 71 -8 13 @ 387129504736
+(AI) [387148721216] Debug: signals: 242 54 -7 12 @ 387148718752
+(AI) [387168937984] Debug: signals: 243 59 -5 12 @ 387168934400
+(AI) [387189172800] Debug: signals: 241 51 -3 11 @ 387189169760
+(AI) [387209369824] Debug: signals: 243 38 -3 11 @ 387209366144
+(AI) [387229576096] Debug: signals: 247 42 3 11 @ 387229555456
+(AI) [387248783936] Debug: signals: 251 26 3 10 @ 387248779168
+(AI) [387269036000] Debug: signals: 253 16 -11 10 @ 387269032032
+(AI) [387289272192] Debug: signals: 256 12 5 10 @ 387289270112
+(AI) [387309455808] Debug: signals: 260 4 -2 9 @ 387309453152
+(AI) [387328636448] Debug: signals: 259 10 1 9 @ 387328632928
+(AI) [387348814464] Debug: signals: 264 -5 -6 9 @ 387348810560
+(AI) [387369059712] Debug: signals: 264 -6 -3 8 @ 387369057824
+(AI) [387389241664] Debug: signals: 260 -20 2 8 @ 387389240000
+(AI) [387409460640] Debug: signals: 255 -18 4 8 @ 387409458784
+(AI) [387428709504] Debug: signals: 253 -42 2 7 @ 387428707488
+(AI) [387448954048] Debug: signals: 254 -54 2 7 @ 387448950912
+(AI) [387469300960] Debug: signals: 245 -59 8 6 @ 387469298496
+(AI) [387489505216] Debug: signals: 245 -70 26 6 @ 387489503648
+(AI) [387508734560] Debug: signals: 239 -73 27 6 @ 387508732448
+(AI) [387528974368] Debug: signals: 237 -77 50 5 @ 387528954048
+(AI) [387549231328] Debug: signals: 231 -81 66 5 @ 387549228384
+(AI) [387569451520] Debug: signals: 222 -76 79 5 @ 387569448960
+(AI) [387588659296] Debug: signals: 220 -89 85 4 @ 387588658112
+(AI) [387608886880] Debug: signals: 224 -85 76 4 @ 387608883648
+(AI) [387629117088] Debug: signals: 224 -57 81 4 @ 387629114784
+(AI) [387649345472] Debug: signals: 232 -56 68 3 @ 387649342240
+(AI) [387669568384] Debug: signals: 237 -46 61 3 @ 387669565792
+(AI) [387688781952] Debug: signals: 249 -37 53 2 @ 387688778720
+(AI) [387708999712] Debug: signals: 265 -30 46 1 @ 387708996032
+(AI) [387729282592] Debug: signals: 279 -23 40 0 @ 387729274848
+(AI) [387749503488] Debug: signals: 297 -17 35 -1 @ 387749499680
+(AI) [387768787776] Debug: signals: 313 -13 31 -2 @ 387768784192
+(AI) [387789028832] Debug: signals: 321 -10 27 -2 @ 387789026400
+(AI) [387809221568] Debug: signals: 330 -8 24 -3 @ 387809219552
+(AI) [387829545344] Debug: signals: 340 -7 22 -3 @ 387829512576
+(AI) [387848770592] Debug: signals: 347 -7 20 -4 @ 387848766880
+(AI) [387868993152] Debug: signals: 353 -6 19 -4 @ 387868990944
+(AI) [387889254432] Debug: signals: 357 -13 14 -4 @ 387889252224
+(AI) [387909444256] Debug: signals: 367 -8 15 -4 @ 387909442784
+(AI) [387928613408] Debug: signals: 365 -6 15 -3 @ 387928610592
+(AI) [387948838880] Debug: signals: 373 -9 13 -3 @ 387948836928
+(AI) [387969072096] Debug: signals: 377 -11 10 -3 @ 387969069376
+(AI) [387989291744] Debug: signals: 389 -8 11 -3 @ 387989289504
+(AI) [388009477216] Debug: signals: 398 -10 9 -3 @ 388009475616
+(AI) [388016659296] Debug: Cameras capture rate: 59 FPS
+(AI) [388028720608] Debug: signals: 401 -8 9 -2 @ 388028718400
+(AI) [388048962176] Debug: signals: 405 -14 5 -3 @ 388048959040
+(AI) [388069213184] Debug: signals: 403 -9 7 -2 @ 388069209888
+(AI) [388089423776] Debug: signals: 405 -10 6 -2 @ 388089421056
+(AI) [388108610336] Debug: signals: 405 -10 6 -1 @ 388108606656
+(AI) [388128925664] Debug: signals: 406 -10 6 -1 @ 388128895936
+(AI) [388149221120] Debug: signals: 411 -10 6 -1 @ 388149218880
+(AI) [388169486176] Debug: signals: 406 -10 5 0 @ 388169484544
+(AI) [388188696800] Debug: signals: 417 -10 4 0 @ 388188694208
+(AI) [388208941824] Debug: signals: 422 -10 3 0 @ 388208940224
+(AI) [388229233408] Debug: signals: 426 -8 4 1 @ 388229230240
+(AI) [388249471264] Debug: signals: 425 -10 2 1 @ 388249468096
+(AI) [388268692256] Debug: signals: 423 -11 1 1 @ 388268690176
+(AI) [388288908608] Debug: signals: 422 -12 0 2 @ 388288905920
+(AI) [388309161280] Debug: signals: 426 -13 -2 2 @ 388309159552
+(AI) [388329410528] Debug: signals: 427 -9 -9 2 @ 388329408192
+(AI) [388348609632] Debug: signals: 428 -6 -16 3 @ 388348606176
+(AI) [388368841952] Debug: signals: 428 -3 -22 3 @ 388368839616
+(AI) [388389067136] Debug: signals: 421 0 -28 3 @ 388389065664
+(AI) [388409303776] Debug: signals: 404 12 -34 4 @ 388409301536
+(AI) [388429570336] Debug: signals: 404 8 -39 5 @ 388429547232
+(AI) [388448815232] Debug: signals: 397 11 -45 5 @ 388448812768
+(AI) [388469055808] Debug: signals: 389 11 -48 5 @ 388469052512
+(AI) [388489272032] Debug: signals: 374 10 -52 6 @ 388489268896
+(AI) [388508549600] Debug: Gate or Waypoint passed!
+
+(AI) [388509542368] Debug: signals: 365 18 -42 5 @ 388509539872
+(AI) [388528744896] Debug: signals: 352 34 -52 1 @ 388528741568
+(AI) [388548953792] Debug: signals: 334 49 -65 -2 @ 388548950080
+(AI) [388569213600] Debug: signals: 321 66 -73 -7 @ 388569208096
+(AI) [388589434944] Debug: signals: 301 81 -75 -10 @ 388589433120
+(AI) [388608664160] Debug: signals: 291 94 -68 -14 @ 388608661856
+(AI) [388628912448] Debug: signals: 285 107 -61 -17 @ 388628908480
+(AI) [388649122368] Debug: signals: 261 120 -54 -21 @ 388649119904
+(AI) [388669325760] Debug: signals: 259 130 -46 -25 @ 388669321568
+(AI) [388689598784] Debug: signals: 254 114 -40 -25 @ 388689595936
+(AI) [388708806912] Debug: signals: 249 99 -33 -25 @ 388708805024
+(AI) [388729014880] Debug: signals: 249 84 -28 -25 @ 388728997600
+(AI) [388749262624] Debug: signals: 254 68 -24 -25 @ 388749233856
+(AI) [388769553568] Debug: signals: 263 54 -20 -24 @ 388769550752
+(AI) [388788799520] Debug: signals: 336 38 -18 -24 @ 388788796288
+(AI) [388808989120] Debug: signals: 338 25 -15 -24 @ 388808986464
+(AI) [388829224896] Debug: signals: 377 13 -13 -24 @ 388829222560
+(AI) [388849488576] Debug: signals: 313 1 -11 -24 @ 388849484448
+(AI) [388868744544] Debug: signals: 301 -6 -10 -24 @ 388868715328
+(AI) [388888977920] Debug: signals: 295 -14 -8 -24 @ 388888975744
+(AI) [388909222176] Debug: signals: 290 -19 -6 -24 @ 388909218400
+(AI) [388929436096] Debug: signals: 280 -23 -5 -23 @ 388929433568
+(AI) [388948644480] Debug: signals: 277 -26 -4 -23 @ 388948642368
+(AI) [388968839808] Debug: signals: 270 -27 -2 -23 @ 388968836160
+(AI) [388989114400] Debug: signals: 262 -28 -1 -23 @ 388989112544
+(AI) [389003313600] Debug: Cameras capture rate: 59 FPS
+(AI) [389009339424] Debug: signals: 248 -27 1 -23 @ 389009337088
+(AI) [389029581440] Debug: signals: 248 -27 3 -23 @ 389029578016
+(AI) [389048856320] Debug: signals: 243 -26 4 -23 @ 389048829408
+(AI) [389069205184] Debug: signals: 241 -25 5 -22 @ 389069202976
+(AI) [389089417056] Debug: signals: 238 -24 5 -22 @ 389089414944
+(AI) [389108607840] Debug: signals: 230 -42 13 -18 @ 389108605056
+(AI) [389128808256] Debug: signals: 224 -55 11 -15 @ 389128805696
+(AI) [389149036288] Debug: signals: 221 -66 2 -14 @ 389149032128
+(AI) [389169303360] Debug: signals: 218 -61 -5 -14 @ 389169300864
+(AI) [389189495488] Debug: signals: 213 -51 4 -14 @ 389189492544
+(AI) [389208705728] Debug: signals: 207 -29 0 -14 @ 389208703072
+(AI) [389228972736] Debug: signals: 208 -42 9 -13 @ 389228968608
+(AI) [389249229152] Debug: signals: 208 -30 1 -14 @ 389249224736
+(AI) [389269433728] Debug: signals: 210 -34 -1 -13 @ 389269432000
+(AI) [389288619616] Debug: signals: 215 -22 1 -13 @ 389288616096
+(AI) [389308826208] Debug: signals: 220 -15 0 -13 @ 389308823488
+(AI) [389329031616] Debug: signals: 222 -15 8 -13 @ 389329028992
+(AI) [389349344320] Debug: signals: 226 -19 -8 -13 @ 389349304864
+(AI) [389369596928] Debug: signals: 223 6 -1 -13 @ 389369593120
+(AI) [389388823072] Debug: signals: 228 3 -2 -13 @ 389388820928
+(AI) [389409065952] Debug: signals: 229 20 -6 -13 @ 389409063552
+(AI) [389429292288] Debug: signals: 233 26 -2 -13 @ 389429290336
+(AI) [389449506016] Debug: signals: 235 18 -3 -13 @ 389449503488
+(AI) [389468754816] Debug: signals: 234 35 -2 -13 @ 389468751008
+(AI) [389488933472] Debug: signals: 235 28 -2 -13 @ 389488929952
+(AI) [389509150912] Debug: signals: 234 31 -2 -13 @ 389509147712
+(AI) [389529402304] Debug: signals: 238 22 -2 -13 @ 389529399456
+(AI) [389549607008] Debug: signals: 234 14 -2 -13 @ 389549604096
+(AI) [389568815488] Debug: signals: 231 9 -2 -13 @ 389568812512
+(AI) [389589074304] Debug: signals: 233 2 -2 -13 @ 389589072160
+(AI) [389609269920] Debug: signals: 237 2 -2 -13 @ 389609267456
+(AI) [389629477632] Debug: signals: 237 -4 -2 -13 @ 389629475648
+(AI) [389648830656] Debug: signals: 242 -11 -2 -13 @ 389648790080
+(AI) [389669066816] Debug: signals: 246 -13 -2 -14 @ 389669063360
+(AI) [389689277024] Debug: signals: 248 -18 -2 -14 @ 389689273888
+(AI) [389709508800] Debug: signals: 255 -17 -2 -14 @ 389709505856
+(AI) [389728705088] Debug: signals: 258 -13 -1 -14 @ 389728702624
+(AI) [389748913408] Debug: signals: 261 -16 -1 -14 @ 389748910304
+(AI) [389769162080] Debug: signals: 264 -13 0 -14 @ 389769158784
+(AI) [389789371616] Debug: signals: 268 -14 0 -15 @ 389789368960
+(AI) [389809596992] Debug: signals: 268 -14 0 -15 @ 389809594016
+(AI) [389828886464] Debug: signals: 269 -14 0 -15 @ 389828884480
+(AI) [389849109952] Debug: signals: 269 -14 -1 -16 @ 389849106976
+(AI) [389869302816] Debug: signals: 268 -12 -1 -16 @ 389869300832
+(AI) [389889534432] Debug: signals: 269 -15 -1 -16 @ 389889532416
+(AI) [389908807680] Debug: signals: 273 -12 -3 -16 @ 389908804544
+(AI) [389929168288] Debug: signals: 274 -13 -3 -17 @ 389929165728
+(AI) [389949402624] Debug: signals: 277 -12 -4 -17 @ 389949384448
+(AI) [389968657056] Debug: signals: 283 -13 -5 -17 @ 389968655200
+(AI) [389988861536] Debug: signals: 287 -15 -5 -17 @ 389988859424
+(AI) [390007079168] Debug: Cameras capture rate: 60 FPS
+(AI) [390009096704] Debug: signals: 294 -14 -5 -18 @ 390009094688
+(AI) [390029259904] Debug: signals: 296 -16 -5 -18 @ 390029258272
+(AI) [390049484064] Debug: signals: 298 -15 -5 -18 @ 390049480768
+(AI) [390068693280] Debug: signals: 302 -14 -5 -18 @ 390068689856
+(AI) [390088887584] Debug: signals: 306 -13 -6 -18 @ 390088883776
+(AI) [390109269472] Debug: signals: 310 -16 -4 -18 @ 390109267296
+(AI) [390129504480] Debug: signals: 311 -15 -3 -18 @ 390129501760
+(AI) [390148744064] Debug: signals: 315 -15 -3 -18 @ 390148741568
+(AI) [390168989216] Debug: signals: 323 -14 -3 -18 @ 390168985440
+(AI) [390189288128] Debug: signals: 323 -13 -4 -19 @ 390189284704
+(AI) [390209478880] Debug: signals: 329 -13 -4 -19 @ 390209476352
+(AI) [390228709408] Debug: signals: 329 -11 -5 -19 @ 390228706176
+(AI) [390248962656] Debug: signals: 332 -11 -5 -19 @ 390248932064
+(AI) [390269234176] Debug: signals: 334 -12 -6 -19 @ 390269231168
+(AI) [390289474464] Debug: signals: 338 -12 -5 -19 @ 390289449088
+(AI) [390308675232] Debug: signals: 342 -9 -7 -19 @ 390308672384
+(AI) [390328908800] Debug: signals: 343 -9 -7 -19 @ 390328904576
+(AI) [390349303456] Debug: signals: 347 -8 -7 -19 @ 390349299872
+(AI) [390369524544] Debug: signals: 352 -7 -6 -19 @ 390369520512
+(AI) [390388760960] Debug: signals: 355 -7 -6 -19 @ 390388758464
+(AI) [390408979040] Debug: signals: 356 -6 -6 -19 @ 390408976512
+(AI) [390429225952] Debug: signals: 361 -5 -6 -19 @ 390429222816
+(AI) [390449438144] Debug: signals: 361 -7 -5 -19 @ 390449435552
+(AI) [390468675808] Debug: signals: 361 -3 -7 -19 @ 390468673760
+(AI) [390488958336] Debug: signals: 363 -3 -7 -19 @ 390488956416
+(AI) [390509173568] Debug: signals: 366 -3 -6 -19 @ 390509171328
+(AI) [390529389408] Debug: signals: 367 -3 -6 -19 @ 390529386144
+(AI) [390548646720] Debug: signals: 372 -1 -6 -19 @ 390548614816
+(AI) [390568881664] Debug: signals: 372 -1 -6 -19 @ 390568878976
+(AI) [390589069920] Debug: signals: 374 -2 -6 -19 @ 390589067488
+(AI) [390609264064] Debug: signals: 375 -1 -7 -19 @ 390609261408
+(AI) [390629512064] Debug: signals: 377 -2 -8 -19 @ 390629509632
+(AI) [390648706656] Debug: signals: 378 -2 -8 -19 @ 390648705056
+(AI) [390668929024] Debug: signals: 375 -1 -7 -19 @ 390668925664
+(AI) [390689162880] Debug: signals: 377 0 -7 -19 @ 390689161280
+(AI) [390709349664] Debug: signals: 383 2 -6 -19 @ 390709347488
+(AI) [390729582272] Debug: signals: 384 3 -6 -19 @ 390729580000
+(AI) [390748807360] Debug: signals: 387 3 -6 -19 @ 390748803392
+(AI) [390768998080] Debug: signals: 385 3 -6 -19 @ 390768996288
+(AI) [390789224480] Debug: signals: 381 4 -6 -19 @ 390789221152
+(AI) [390809426080] Debug: signals: 384 6 -9 -19 @ 390809424000
+(AI) [390829627680] Debug: signals: 383 9 -8 -19 @ 390829602848
+(AI) [390848877184] Debug: signals: 382 9 -9 -19 @ 390848853152
+(AI) [390869138816] Debug: signals: 382 10 -9 -19 @ 390869135648
+(AI) [390889363008] Debug: signals: 381 11 -9 -19 @ 390889360672
+(AI) [390909558400] Debug: signals: 382 12 -7 -19 @ 390909555392
+(AI) [390928734240] Debug: signals: 380 11 -7 -19 @ 390928731872
+(AI) [390948947968] Debug: signals: 377 13 -6 -18 @ 390948945856
+(AI) [390969193376] Debug: signals: 374 12 -5 -19 @ 390969190432
+(AI) [390989421600] Debug: signals: 366 14 -5 -18 @ 390989417760
+(AI) [391008383712] Debug: Cameras capture rate: 60 FPS
+(AI) [391008638464] Debug: signals: 362 14 -6 -18 @ 391008636512
+(AI) [391028780512] Debug: signals: 360 11 -6 -19 @ 391028776928
+(AI) [391048983296] Debug: signals: 358 10 -6 -19 @ 391048980288
+(AI) [391069215520] Debug: signals: 355 12 -6 -19 @ 391069213600
+(AI) [391089418592] Debug: signals: 354 13 -6 -18 @ 391089416448
+(AI) [391109605152] Debug: signals: 353 13 -5 -18 @ 391109602048
+(AI) [391128870816] Debug: signals: 351 11 -5 -18 @ 391128867712
+(AI) [391149173280] Debug: signals: 349 11 -5 -18 @ 391149147616
+(AI) [391169377408] Debug: signals: 346 8 -6 -19 @ 391169375264
+(AI) [391189587808] Debug: signals: 344 18 2 -18 @ 391189584512
+(AI) [391208767392] Debug: signals: 343 13 -6 -17 @ 391208763584
+(AI) [391228998784] Debug: signals: 342 11 -6 -17 @ 391228996576
+(AI) [391249226144] Debug: signals: 338 8 -6 -18 @ 391249222624
+(AI) [391269437856] Debug: signals: 340 7 -6 -18 @ 391269434944
+(AI) [391289625184] Debug: signals: 339 5 -5 -19 @ 391289621856
+(AI) [391308865184] Debug: signals: 339 4 -5 -19 @ 391308861216
+(AI) [391329123584] Debug: signals: 338 2 -5 -19 @ 391329118880
+(AI) [391349392864] Debug: signals: 335 -19 2 -19 @ 391349388736
+(AI) [391368636096] Debug: signals: 334 -37 2 -18 @ 391368633632
+(AI) [391388848096] Debug: signals: 334 -49 2 -17 @ 391388845856
+(AI) [391409032960] Debug: signals: 337 -45 2 -17 @ 391409030336
+(AI) [391429197824] Debug: signals: 342 -43 7 -16 @ 391429194400
+(AI) [391449414048] Debug: signals: 347 -39 24 -16 @ 391449388384
+(AI) [391468675808] Debug: signals: 351 -35 41 -15 @ 391468672192
+(AI) [391488919360] Debug: signals: 355 -30 58 -15 @ 391488916960
+(AI) [391503152320] Debug: Gate or Waypoint passed!
+
+(AI) [391509185600] Debug: signals: 363 -14 76 8 @ 391509182752
+(AI) [391529422400] Debug: signals: 370 8 90 4 @ 391529418560
+(AI) [391548603648] Debug: signals: 376 19 103 -1 @ 391548600000
+(AI) [391568818880] Debug: signals: 381 24 91 -6 @ 391568816864
+(AI) [391589064224] Debug: signals: 388 27 85 -11 @ 391589061664
+(AI) [391609249184] Debug: signals: 395 29 77 -14 @ 391609246528
+(AI) [391629442400] Debug: signals: 398 29 69 -15 @ 391629439232
+(AI) [391648714848] Debug: signals: 405 29 60 -16 @ 391648713216
+(AI) [391668932608] Debug: signals: 419 27 51 -17 @ 391668930080
+(AI) [391689186880] Debug: signals: 427 25 42 -18 @ 391689183776
+(AI) [391709405472] Debug: signals: 437 21 35 -19 @ 391709402080
+(AI) [391728630272] Debug: signals: 443 17 28 -19 @ 391728626304
+(AI) [391748891456] Debug: signals: 455 12 23 -19 @ 391748868256
+(AI) [391769119360] Debug: signals: 460 7 19 -19 @ 391769117472
+(AI) [391789309696] Debug: signals: 466 2 15 -18 @ 391789307616
+(AI) [391809560320] Debug: signals: 474 -2 13 -18 @ 391809558080
+(AI) [391828801344] Debug: signals: 474 -7 11 -17 @ 391828798688
+(AI) [391849029920] Debug: signals: 475 -11 10 -16 @ 391849027552
+(AI) [391869261920] Debug: signals: 471 -14 10 -15 @ 391869257504
+(AI) [391889475360] Debug: signals: 538 -18 9 -15 @ 391889473024
+(AI) [391908704096] Debug: signals: 563 -20 8 -14 @ 391908699456
+(AI) [391928948800] Debug: signals: 550 -3 -9 -15 @ 391928946144
+(AI) [391949179392] Debug: signals: 524 -22 -27 -18 @ 391949176928
+(AI) [391969375392] Debug: signals: 521 5 -44 -22 @ 391969372864
+(AI) [391989588032] Debug: signals: 528 23 -61 -25 @ 391989583360
+(AI) [392008847488] Debug: signals: 503 26 -79 -29 @ 392008844384
+(AI) [392011556928] Debug: Cameras capture rate: 57 FPS
+(AI) [392029101120] Debug: signals: 477 8 -94 -29 @ 392029097760
+(AI) [392049346720] Debug: signals: 439 -8 -102 -28 @ 392049319008
+(AI) [392069551488] Debug: signals: 395 -30 -96 -26 @ 392069549408
+(AI) [392088741504] Debug: signals: 375 -49 -88 -25 @ 392088739008
+(AI) [392108980960] Debug: signals: 347 -63 -80 -24 @ 392108978208
+(AI) [392129228064] Debug: signals: 334 -41 -71 -22 @ 392129224160
+(AI) [392149412928] Debug: signals: 319 -23 -61 -22 @ 392149410400
+(AI) [392168612864] Debug: signals: 311 -3 -52 -21 @ 392168610944
+(AI) [392188827904] Debug: signals: 309 18 -37 -20 @ 392188825920
+(AI) [392209069600] Debug: signals: 308 42 -28 -19 @ 392209067136
+(AI) [392229297440] Debug: signals: 307 32 -22 -18 @ 392229293856
+(AI) [392249489088] Debug: signals: 305 53 -18 -17 @ 392249485600
+(AI) [392268700256] Debug: signals: 300 28 -7 -16 @ 392268696992
+(AI) [392288896768] Debug: signals: 296 20 -13 -16 @ 392288894560
+(AI) [392309114976] Debug: signals: 286 30 -12 -15 @ 392309111200
+(AI) [392329277760] Debug: signals: 279 22 -13 -15 @ 392329275296
+(AI) [392349486464] Debug: signals: 274 0 -14 -15 @ 392349459456
+(AI) [392368801504] Debug: signals: 270 24 -14 -15 @ 392368798752
+(AI) [392389052032] Debug: signals: 267 17 -14 -14 @ 392389049664
+(AI) [392409281248] Debug: signals: 268 18 -15 -14 @ 392409278496
+(AI) [392429490976] Debug: signals: 263 16 -14 -14 @ 392429488000
+(AI) [392448704736] Debug: signals: 264 38 -13 -13 @ 392448701856
+(AI) [392468905024] Debug: signals: 261 28 -12 -12 @ 392468901248
+(AI) [392489161408] Debug: signals: 262 30 -10 -12 @ 392489158688
+(AI) [392509331360] Debug: signals: 256 34 -9 -12 @ 392509329792
+(AI) [392529571616] Debug: signals: 253 36 -7 -11 @ 392529569664
+(AI) [392548773056] Debug: signals: 247 44 -6 -11 @ 392548770976
+(AI) [392569067904] Debug: signals: 242 33 -5 -11 @ 392569064640
+(AI) [392589371872] Debug: signals: 239 34 -5 -11 @ 392589362368
+(AI) [392608601408] Debug: signals: 237 29 -4 -11 @ 392608598368
+(AI) [392628837952] Debug: signals: 233 26 -4 -10 @ 392628834400
+(AI) [392649164736] Debug: signals: 230 23 -4 -10 @ 392649113920
+(AI) [392669406208] Debug: signals: 228 22 -4 -10 @ 392669402944
+(AI) [392689599296] Debug: signals: 231 18 -3 -10 @ 392689596352
+(AI) [392708797344] Debug: signals: 230 15 -3 -9 @ 392708794752
+(AI) [392729044000] Debug: signals: 235 16 -2 -9 @ 392729040512
+(AI) [392749333280] Debug: signals: 234 14 -2 -9 @ 392749330464
+(AI) [392769530944] Debug: signals: 231 8 -1 -9 @ 392769529024
+(AI) [392788748608] Debug: signals: 231 9 -1 -9 @ 392788745760
+(AI) [392808951840] Debug: signals: 233 5 -1 -9 @ 392808948448
+(AI) [392829194112] Debug: signals: 232 4 -1 -9 @ 392829192256
+(AI) [392849368736] Debug: signals: 233 1 -2 -9 @ 392849366976
+(AI) [392869572160] Debug: signals: 237 -9 -2 -9 @ 392869569376
+(AI) [392888753184] Debug: signals: 235 6 -1 -9 @ 392888751328
+(AI) [392908925024] Debug: signals: 238 0 -1 -9 @ 392908923104
+(AI) [392929132448] Debug: signals: 236 -2 0 -9 @ 392929129248
+(AI) [392949359904] Debug: signals: 241 0 0 -9 @ 392949331008
+(AI) [392969554080] Debug: signals: 239 -2 1 -9 @ 392969550496
+(AI) [392988741120] Debug: signals: 239 -2 2 -10 @ 392988738496
+(AI) [393008944192] Debug: signals: 239 -4 2 -10 @ 393008940480
+(AI) [393016756096] Debug: Cameras capture rate: 60 FPS
+(AI) [393029318944] Debug: signals: 240 -6 2 -10 @ 393029315648
+(AI) [393049599584] Debug: signals: 241 -5 1 -10 @ 393049597184
+(AI) [393068796064] Debug: signals: 239 -6 1 -10 @ 393068793888
+(AI) [393089026560] Debug: signals: 240 -6 0 -10 @ 393089024768
+(AI) [393109228832] Debug: signals: 243 -3 0 -10 @ 393109223808
+(AI) [393129444800] Debug: signals: 238 -3 0 -10 @ 393129441888
+(AI) [393148686240] Debug: signals: 241 -8 -1 -10 @ 393148682720
+(AI) [393168906080] Debug: signals: 242 -8 -1 -11 @ 393168903360
+(AI) [393189125440] Debug: signals: 241 -10 -1 -11 @ 393189123168
+(AI) [393209322208] Debug: signals: 242 -7 -1 -11 @ 393209319872
+(AI) [393229517248] Debug: signals: 246 -8 -1 -11 @ 393229514688
+(AI) [393248751008] Debug: signals: 250 -8 -1 -11 @ 393248729152
+(AI) [393268949728] Debug: signals: 252 -11 -2 -12 @ 393268947872
+(AI) [393289164576] Debug: signals: 253 -12 -2 -12 @ 393289161152
+(AI) [393309379488] Debug: signals: 256 -2 -2 -12 @ 393309375424
+(AI) [393329594208] Debug: signals: 260 -14 -1 -13 @ 393329591488
+(AI) [393348806528] Debug: signals: 262 -12 -1 -13 @ 393348802528
+(AI) [393369079456] Debug: signals: 261 -11 -1 -13 @ 393369076224
+(AI) [393389316224] Debug: signals: 261 -11 -1 -13 @ 393389314016
+(AI) [393409524448] Debug: signals: 262 -12 -1 -13 @ 393409522048
+(AI) [393428763520] Debug: signals: 260 -10 -2 -14 @ 393428761344
+(AI) [393449053856] Debug: signals: 258 -12 -2 -15 @ 393449051328
+(AI) [393469282144] Debug: signals: 262 -10 -3 -15 @ 393469279616
+(AI) [393489500736] Debug: signals: 264 -11 -3 -15 @ 393489497824
+(AI) [393508732384] Debug: signals: 269 -8 -3 -15 @ 393508729920
+(AI) [393528936288] Debug: signals: 271 -8 -2 -15 @ 393528934816
+(AI) [393549169216] Debug: signals: 270 -9 -2 -16 @ 393549139872
+(AI) [393569421632] Debug: signals: 273 -9 -2 -16 @ 393569417888
+(AI) [393588673056] Debug: signals: 273 -9 -2 -16 @ 393588670592
+(AI) [393608925792] Debug: signals: 274 -8 -2 -17 @ 393608924000
+(AI) [393629199552] Debug: signals: 275 -8 -2 -17 @ 393629196224
+(AI) [393649410432] Debug: signals: 278 -10 -2 -18 @ 393649406976
+(AI) [393669594208] Debug: signals: 276 -9 -2 -18 @ 393669591136
+(AI) [393688763296] Debug: signals: 280 -10 -2 -18 @ 393688760736
+(AI) [393709035296] Debug: signals: 285 -9 -2 -19 @ 393709030112
+(AI) [393729222752] Debug: signals: 286 -9 -2 -18 @ 393729220448
+(AI) [393749432992] Debug: signals: 290 -8 -2 -19 @ 393749430208
+(AI) [393768627776] Debug: signals: 293 -9 -2 -19 @ 393768625024
+(AI) [393788858592] Debug: signals: 291 -10 -3 -20 @ 393788855104
+(AI) [393809083488] Debug: signals: 298 -9 -3 -20 @ 393809080704
+(AI) [393829312096] Debug: signals: 299 -10 -3 -20 @ 393829308672
+(AI) [393849526432] Debug: signals: 299 -8 -3 -21 @ 393849524000
+(AI) [393868745120] Debug: signals: 300 -8 -3 -21 @ 393868718368
+(AI) [393888942912] Debug: signals: 299 -8 -4 -22 @ 393888938656
+(AI) [393909202912] Debug: signals: 303 -7 -4 -23 @ 393909199072
+(AI) [393929431648] Debug: signals: 306 -7 -4 -23 @ 393929429344
+(AI) [393949609600] Debug: signals: 308 -7 -4 -25 @ 393949606560
+(AI) [393968821440] Debug: signals: 312 -7 -4 -26 @ 393968818880
+(AI) [393988991936] Debug: signals: 314 -6 -4 -26 @ 393988989536
+(AI) [394002297824] Debug: Cameras capture rate: 59 FPS
+(AI) [394009206464] Debug: signals: 318 -6 -4 -28 @ 394009203392
+(AI) [394029397504] Debug: signals: 319 -6 -5 -29 @ 394029394208
+(AI) [394049589696] Debug: signals: 320 -6 -5 -30 @ 394049587168
+(AI) [394068757984] Debug: signals: 319 -30 3 -29 @ 394068755296
+(AI) [394088954080] Debug: signals: 319 -47 3 -28 @ 394088951616
+(AI) [394109175072] Debug: signals: 326 -63 2 -28 @ 394109172160
+(AI) [394129413760] Debug: signals: 325 -79 2 -27 @ 394129409664
+(AI) [394148651168] Debug: signals: 329 -69 1 -26 @ 394148649568
+(AI) [394168904192] Debug: signals: 337 -66 1 -25 @ 394168876448
+(AI) [394182271328] Debug: Gate or Waypoint passed!
+
+(AI) [394189144640] Debug: signals: 345 -70 10 -34 @ 394189142112
+(AI) [394209366272] Debug: signals: 386 -63 14 -38 @ 394209363232
+(AI) [394229614368] Debug: signals: 394 -56 13 -42 @ 394229610592
+(AI) [394248846048] Debug: signals: 409 -49 12 -45 @ 394248844256
+(AI) [394269160928] Debug: signals: 420 -43 11 -49 @ 394269158176
+(AI) [394289370976] Debug: signals: 439 -35 7 -53 @ 394289368864
+(AI) [394309596416] Debug: signals: 452 -30 5 -57 @ 394309593856
+(AI) [394328840960] Debug: signals: 466 -25 1 -60 @ 394328836768
+(AI) [394349080960] Debug: signals: 480 -21 -2 -59 @ 394349079200
+(AI) [394369316736] Debug: signals: 491 -18 -5 -59 @ 394369313184
+(AI) [394389547392] Debug: signals: 498 -16 -9 -58 @ 394389544608
+(AI) [394408773152] Debug: signals: 506 -15 -11 -57 @ 394408769216
+(AI) [394429088864] Debug: signals: 509 -15 -14 -56 @ 394429086336
+(AI) [394449335040] Debug: signals: 511 -15 -17 -55 @ 394449331520
+(AI) [394469594688] Debug: signals: 511 -15 -19 -54 @ 394469545056
+(AI) [394488817024] Debug: signals: 512 -16 -22 -52 @ 394488813696
+(AI) [394509100768] Debug: signals: 518 -16 -24 -51 @ 394509091392
+(AI) [394529384736] Debug: signals: 516 -17 -25 -49 @ 394529382208
+(AI) [394548615520] Debug: signals: 515 -17 -27 -47 @ 394548612480
+(AI) [394568849792] Debug: signals: 516 -17 -28 -45 @ 394568846656
+(AI) [394589116640] Debug: signals: 516 -18 -29 -43 @ 394589113152
+(AI) [394609349568] Debug: signals: 520 -17 -30 -41 @ 394609346432
+(AI) [394629563232] Debug: signals: 516 -17 -31 -39 @ 394629560320
+(AI) [394648768864] Debug: signals: 574 -17 -31 -37 @ 394648766112
+(AI) [394668989216] Debug: signals: 618 -16 -31 -35 @ 394668985856
+(AI) [394689257504] Debug: signals: 638 -16 -31 -33 @ 394689254144
+(AI) [394709488576] Debug: signals: 642 -15 -31 -32 @ 394709484896
+(AI) [394728720288] Debug: signals: 634 -14 -31 -30 @ 394728717312
+(AI) [394748952096] Debug: signals: 525 -12 -31 -28 @ 394748948480
+(AI) [394769274464] Debug: signals: 455 -11 -31 -26 @ 394769227648
+(AI) [394789519872] Debug: signals: 422 -10 -31 -25 @ 394789517696
+(AI) [394808736704] Debug: signals: 408 -9 -30 -23 @ 394808733312
+(AI) [394829107776] Debug: signals: 407 -9 -32 -25 @ 394829104864
+(AI) [394849332480] Debug: signals: 414 -7 -19 -25 @ 394849330240
+(AI) [394869595840] Debug: signals: 430 -8 -33 -24 @ 394869591456
+(AI) [394888880448] Debug: signals: 439 -7 -24 -23 @ 394888876864
+(AI) [394909174816] Debug: signals: 458 -7 -24 -22 @ 394909172992
+(AI) [394929397184] Debug: signals: 469 -6 -20 -20 @ 394929394464
+(AI) [394949622848] Debug: signals: 484 -7 -28 -19 @ 394949619872
+(AI) [394968888672] Debug: signals: 493 -6 -36 -18 @ 394968884992
+(AI) [394989167552] Debug: signals: 504 -5 -29 -18 @ 394989163552
+(AI) [395004655104] Debug: Cameras capture rate: 60 FPS
+(AI) [395009391424] Debug: signals: 512 -5 -28 -17 @ 395009388320
+(AI) [395029627936] Debug: signals: 520 -4 -27 -16 @ 395029624224
+(AI) [395048859392] Debug: signals: 527 -4 -26 -16 @ 395048855424
+(AI) [395069146848] Debug: signals: 537 -4 -25 -15 @ 395069078880
+(AI) [395089386080] Debug: signals: 541 -3 -24 -14 @ 395089383648
+(AI) [395109601888] Debug: signals: 546 -2 -25 -14 @ 395109598336
+(AI) [395128827136] Debug: signals: 550 -2 -24 -14 @ 395128823648
+(AI) [395149082528] Debug: signals: 553 -1 -24 -13 @ 395149080384
+(AI) [395169276832] Debug: signals: 551 6 -29 -13 @ 395169273856
+(AI) [395189502336] Debug: signals: 553 26 -29 -12 @ 395189499360
+(AI) [395208710368] Debug: signals: 553 43 -28 -10 @ 395208707360
+(AI) [395228948352] Debug: signals: 550 60 -27 -10 @ 395228945664
+(AI) [395249210272] Debug: signals: 542 79 -26 -9 @ 395249207136
+(AI) [395269413408] Debug: signals: 534 94 -16 -8 @ 395269411520
+(AI) [395288768832] Debug: signals: 525 108 -15 -7 @ 395288766816
+(AI) [395309000128] Debug: signals: 499 122 -13 -7 @ 395308998016
+(AI) [395329247072] Debug: signals: 475 132 -15 -6 @ 395329244192
+(AI) [395349473600] Debug: signals: 442 132 -9 -5 @ 395349471584
+(AI) [395368711168] Debug: signals: 425 120 -10 -4 @ 395368672864
+(AI) [395388968064] Debug: signals: 401 115 -10 -4 @ 395388965248
+(AI) [395409194304] Debug: signals: 378 99 -9 -3 @ 395409190880
+(AI) [395429445152] Debug: signals: 366 88 -8 -3 @ 395429440736
+(AI) [395448670496] Debug: signals: 359 76 -7 -2 @ 395448667968
+(AI) [395468899424] Debug: signals: 352 64 -7 -2 @ 395468894784
+(AI) [395489127520] Debug: signals: 353 54 -6 -1 @ 395489124224
+(AI) [395509356096] Debug: signals: 356 42 -6 -1 @ 395509353472
+(AI) [395529601216] Debug: signals: 355 36 -5 0 @ 395529597984
+(AI) [395548791200] Debug: signals: 355 31 -4 0 @ 395548788832
+(AI) [395569110080] Debug: signals: 355 29 -3 1 @ 395569106336
+(AI) [395589310752] Debug: signals: 352 23 -2 1 @ 395589307968
+(AI) [395609511552] Debug: signals: 350 20 -2 2 @ 395609507840
+(AI) [395628713888] Debug: signals: 344 31 4 2 @ 395628711744
+(AI) [395648917760] Debug: signals: 341 24 0 3 @ 395648915648
+(AI) [395669184736] Debug: signals: 333 20 1 2 @ 395669104352
+(AI) [395689400096] Debug: signals: 327 20 1 3 @ 395689397504
+(AI) [395709606592] Debug: signals: 321 17 2 3 @ 395709603904
+(AI) [395728843936] Debug: signals: 314 16 2 3 @ 395728840864
+(AI) [395749061696] Debug: signals: 308 10 3 3 @ 395749058720
+(AI) [395769279808] Debug: signals: 308 7 3 4 @ 395769277408
+(AI) [395789516544] Debug: signals: 303 7 4 4 @ 395789512448
+(AI) [395808724832] Debug: signals: 300 -12 4 4 @ 395808721568
+(AI) [395828924256] Debug: signals: 297 1 4 4 @ 395828922016
+(AI) [395849139744] Debug: signals: 294 -11 4 5 @ 395849137120
+(AI) [395869316640] Debug: signals: 289 -17 4 5 @ 395869314272
+(AI) [395889541856] Debug: signals: 287 -21 12 5 @ 395889538304
+(AI) [395908743328] Debug: signals: 284 -40 12 6 @ 395908741536
+(AI) [395928960448] Debug: signals: 279 -27 -4 5 @ 395928957504
+(AI) [395949187424] Debug: signals: 276 -54 11 5 @ 395949185408
+(AI) [395969434624] Debug: signals: 272 -59 11 5 @ 395969375648
+(AI) [395988658880] Debug: signals: 264 -76 11 5 @ 395988654944
+(AI) [396007775136] Debug: Cameras capture rate: 60 FPS
+(AI) [396008893856] Debug: signals: 258 -54 11 6 @ 396008890144
+(AI) [396029138848] Debug: signals: 255 -68 10 5 @ 396029135424
+(AI) [396049342784] Debug: signals: 252 -79 18 5 @ 396049340416
+(AI) [396069626304] Debug: signals: 248 -83 36 5 @ 396069623200
+(AI) [396088876832] Debug: signals: 248 -70 50 5 @ 396088873952
+(AI) [396109178368] Debug: signals: 242 -51 60 5 @ 396109174560
+(AI) [396129450624] Debug: signals: 243 -44 61 4 @ 396129447712
+(AI) [396148702560] Debug: signals: 242 -24 56 4 @ 396148700128
+(AI) [396168957792] Debug: signals: 244 -15 62 3 @ 396168955456
+(AI) [396189217888] Debug: signals: 243 6 59 3 @ 396189214912
+(AI) [396209447872] Debug: signals: 248 15 68 3 @ 396209444832
+(AI) [396228672160] Debug: signals: 249 21 64 1 @ 396228669792
+(AI) [396248905024] Debug: signals: 250 33 61 0 @ 396248901952
+(AI) [396269214304] Debug: signals: 256 40 57 -1 @ 396269146272
+(AI) [396289435296] Debug: signals: 260 56 34 -2 @ 396289432736
+(AI) [396308617120] Debug: signals: 263 59 32 -2 @ 396308614144
+(AI) [396328834272] Debug: signals: 270 66 46 -1 @ 396328830176
+(AI) [396349069376] Debug: signals: 279 52 34 -2 @ 396349066304
+(AI) [396369273856] Debug: signals: 287 51 24 -2 @ 396369270368
+(AI) [396389452448] Debug: signals: 296 46 17 -2 @ 396389450336
+(AI) [396408644736] Debug: signals: 312 39 8 -1 @ 396408641408
+(AI) [396428883104] Debug: signals: 328 32 1 -1 @ 396428880608
+(AI) [396449168800] Debug: signals: 344 23 -9 0 @ 396449163968
+(AI) [396469403808] Debug: signals: 357 15 -16 1 @ 396469401536
+(AI) [396489627840] Debug: signals: 368 5 -23 1 @ 396489624736
+(AI) [396508834720] Debug: signals: 371 -2 -29 2 @ 396508832096
+(AI) [396529078720] Debug: signals: 373 5 -39 4 @ 396529076352
+(AI) [396549290432] Debug: signals: 369 -1 -42 5 @ 396549287744
+(AI) [396569515296] Debug: signals: 365 -7 -41 5 @ 396569474464
+(AI) [396588778816] Debug: signals: 359 -10 -41 6 @ 396588775200
+(AI) [396609042912] Debug: signals: 352 -11 -39 6 @ 396609038880
+(AI) [396629323456] Debug: signals: 346 -12 -36 6 @ 396629319776
+(AI) [396649550496] Debug: signals: 338 -12 -33 6 @ 396649548544
+(AI) [396668763584] Debug: signals: 328 -11 -29 6 @ 396668760256
+(AI) [396688967744] Debug: signals: 322 -10 -26 6 @ 396688963936
+(AI) [396709234304] Debug: signals: 314 -10 -22 6 @ 396709230336
+(AI) [396729485952] Debug: signals: 308 -9 -19 6 @ 396729482240
+(AI) [396748736320] Debug: signals: 300 -8 -16 6 @ 396748734048
+(AI) [396768973280] Debug: signals: 293 -7 -12 6 @ 396768969632
+(AI) [396789219040] Debug: signals: 289 -6 -10 6 @ 396789216448
+(AI) [396809438656] Debug: signals: 282 -5 -7 6 @ 396809435296
+(AI) [396828652736] Debug: signals: 279 -4 -5 6 @ 396828649664
+(AI) [396848916960] Debug: signals: 281 -3 -3 6 @ 396848913600
+(AI) [396869199616] Debug: signals: 279 -2 -2 6 @ 396869145472
+(AI) [396889391936] Debug: signals: 281 -2 0 6 @ 396889388736
+(AI) [396908606624] Debug: signals: 278 -1 1 6 @ 396908604064
+(AI) [396928827264] Debug: signals: 278 0 2 6 @ 396928825184
+(AI) [396949059872] Debug: signals: 272 1 3 6 @ 396949057056
+(AI) [396969249920] Debug: signals: 368 2 4 6 @ 396969247104
+(AI) [396989447232] Debug: signals: 407 3 5 6 @ 396989444000
+(AI) [397008693792] Debug: signals: 401 3 5 6 @ 397008690496
+(AI) [397009959968] Debug: Cameras capture rate: 59 FPS
+(AI) [397027121504] Debug: Gate or Waypoint passed!
+
+(AI) [397027227840] Info: SCORE: 11.601909
+
+(AI) [397028914656] Debug: signals: 400 4 6 6 @ 397028912288
+(AI) [397049163904] Debug: signals: 299 5 6 6 @ 397049160704
+(AI) [397069399616] Debug: signals: 329 8 7 5 @ 397069396640
+(AI) [397088672768] Debug: signals: 356 11 -6 5 @ 397088669376
+(AI) [397108888992] Debug: signals: 391 10 -29 7 @ 397108886240
+(AI) [397129187936] Debug: signals: 407 -1 -66 12 @ 397129185280
+(AI) [397149404256] Debug: signals: 458 -14 -103 17 @ 397149401408
+(AI) [397169667392] Debug: signals: 544 -26 -123 22 @ 397169613664
+(AI) [397188899360] Debug: signals: 562 -37 -137 26 @ 397188896192
+(AI) [397209174944] Debug: signals: 614 -55 -139 29 @ 397209171744
+(AI) [397229430496] Debug: signals: 630 -57 -137 32 @ 397229427168
+(AI) [397248688672] Debug: signals: 608 -59 -130 35 @ 397248685504
+(AI) [397268889792] Debug: signals: 525 -60 -116 37 @ 397268887136
+(AI) [397289213280] Debug: signals: 426 -60 -103 38 @ 397289210528
+(AI) [397309410368] Debug: signals: 408 -60 -91 39 @ 397309408032
+(AI) [397329602912] Debug: signals: 399 -62 -79 41 @ 397329600576
+(AI) [397348820096] Debug: signals: 383 -64 -69 42 @ 397348816544
+(AI) [397369079136] Debug: signals: 384 -63 -61 43 @ 397369076480
+(AI) [397389294656] Debug: signals: 394 -62 -56 43 @ 397389292096
+(AI) [397409503392] Debug: signals: 358 -61 -54 43 @ 397409499936
+(AI) [397428749568] Debug: signals: 332 -60 -52 43 @ 397428747136
+(AI) [397448939328] Debug: signals: 357 -59 -51 43 @ 397448934240
+(AI) [397469285024] Debug: signals: 371 -58 -52 43 @ 397469242240
+(AI) [397489502528] Debug: signals: 378 -57 -52 42 @ 397489499424
+(AI) [397508689920] Debug: signals: 388 -56 -52 41 @ 397508686720
+(AI) [397528882144] Debug: signals: 390 -56 -52 41 @ 397528879008
+(AI) [397549099232] Debug: signals: 385 -55 -51 40 @ 397549095392
+(AI) [397569334144] Debug: signals: 351 -55 -49 39 @ 397569331584
+(AI) [397589518432] Debug: signals: 293 -54 -45 38 @ 397589516224
+(AI) [397608699456] Debug: signals: 365 -53 -41 37 @ 397608697184
+(AI) [397628914048] Debug: signals: 377 -52 -36 37 @ 397628909920
+(AI) [397649169056] Debug: signals: 377 -50 -30 36 @ 397649165152
+(AI) [397669350496] Debug: signals: 382 -49 -23 35 @ 397669348384
+(AI) [397689502496] Debug: signals: 393 -46 -17 34 @ 397689499168
+(AI) [397708657376] Debug: signals: 367 -42 -10 32 @ 397708654688
+(AI) [397728873568] Debug: signals: 344 -24 2 31 @ 397728870208
+(AI) [397749119904] Debug: signals: 348 1 8 29 @ 397749109344
+(AI) [397769411584] Debug: signals: 366 28 11 27 @ 397769316608
+(AI) [397788617632] Debug: signals: 409 59 15 25 @ 397788613984
+(AI) [397808865888] Debug: signals: 512 96 11 23 @ 397808862976
+(AI) [397829123360] Debug: signals: 630 132 6 20 @ 397829120224
+(AI) [397849345088] Debug: signals: 819 169 -3 16 @ 397849342304
+(AI) [397869581632] Debug: signals: 819 204 -7 12 @ 397869578752
+(AI) [397888815072] Debug: signals: 819 241 1 6 @ 397888812160
+(AI) [397909029952] Debug: signals: 819 278 13 0 @ 397909027488
+(AI) [397929328512] Debug: signals: 819 294 14 -7 @ 397929324736
+(AI) [397949577824] Debug: signals: 819 307 15 -15 @ 397949575392
+(AI) [397968806720] Debug: signals: 819 318 18 -24 @ 397968803072
+(AI) [397989040960] Debug: signals: 819 328 17 -31 @ 397989037216
+(AI) [398009298592] Debug: signals: 819 339 8 -38 @ 398009294784
+(AI) [398014479200] Debug: Cameras capture rate: 59 FPS
+(AI) [398029500288] Debug: signals: 819 344 -8 -42 @ 398029498048
+(AI) [398048660736] Debug: signals: 819 348 -34 -43 @ 398048658784
+(AI) [398068912256] Debug: signals: 819 345 -68 -43 @ 398068835648
+(AI) [398089139776] Debug: signals: 819 335 -102 -41 @ 398089136928
+(AI) [398109360320] Debug: signals: 819 317 -132 -38 @ 398109357408
+(AI) [398129603328] Debug: signals: 819 291 -162 -34 @ 398129600128
+(AI) [398148867424] Debug: signals: 819 264 -193 -30 @ 398148864736
+(AI) [398169110752] Debug: signals: 819 239 -219 -26 @ 398169106720
+(AI) [398189300544] Debug: signals: 819 216 -250 -23 @ 398189296832
+(AI) [398209508544] Debug: signals: 819 195 -277 -20 @ 398209505408
+(AI) [398228702816] Debug: signals: 819 165 -291 -15 @ 398228700800
+(AI) [398248900288] Debug: signals: 819 114 -298 -5 @ 398248897600
+(AI) [398269160832] Debug: signals: 819 66 -298 5 @ 398269157760
+(AI) [398289440384] Debug: signals: 819 71 -293 2 @ 398289437120
+(AI) [398308673312] Debug: signals: 819 92 -275 -6 @ 398308670080
+(AI) [398328951872] Debug: signals: 819 107 -253 -11 @ 398328948032
+(AI) [398349212576] Debug: signals: 819 129 -234 -17 @ 398349209728
+(AI) [398369491136] Debug: signals: 819 133 -218 -18 @ 398369446560
+(AI) [398388720096] Debug: signals: 819 152 -199 -22 @ 398388716352
+(AI) [398408911872] Debug: signals: 819 174 -186 -27 @ 398408901408
+(AI) [398423120832] Info: Launch socket event
+(AI) [398423317856] Info: Read 7 bytes DISABLE
+(AI) [398423405344] Debug: DAN msg: DISABLE
+(AI) [398423435808] Info: Disable received
+(AI) [398423452160] Debug: signals: -819 0 0 0 @ 398423451584
+(AI) [398429206048] Debug: signals: 819 198 -180 -31 @ 398429202016
+(AI) [398449458048] Debug: signals: 819 225 -183 -38 @ 398449455584
+(AI) [398468680832] Debug: signals: 819 252 -183 -45 @ 398468678144
+(AI) [398488783328] Info: Launch socket event
+(AI) [398488886368] Info: Read 7 bytes DISABLE
+(AI) [398488919616] Debug: DAN msg: DISABLE
+(AI) [398488933568] Info: Disable received
+(AI) [398488947104] Debug: signals: 819 280 -184 -52 @ 398488944384
+(AI) [398489103904] Debug: signals: -819 0 0 0 @ 398489103040
