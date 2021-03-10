@@ -16,6 +16,7 @@
       <mapping pattern="B737_Bending_Reaction_Forces" type="PLAIN_TEXT" />
       <mapping pattern="B737_Jam_Bent_Deflection" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
+      <mapping ext="mat" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
