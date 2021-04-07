@@ -4,15 +4,15 @@
     <extensionMap>
       <mapping pattern="B737_Jam_Bent_Reaction_Forces" type="PLAIN_TEXT" />
       <mapping pattern="element_coordinates" type="PLAIN_TEXT" />
+      <mapping pattern="B737_Bending_Stresses" type="PLAIN_TEXT" />
       <mapping pattern="B737_Jam_Straight_Deflection" type="PLAIN_TEXT" />
       <mapping pattern="Gitlab_Link_Instructions" type="PLAIN_TEXT" />
       <mapping pattern="B737_Jam_Straight_Stresses" type="PLAIN_TEXT" />
       <mapping pattern="element_set" type="PLAIN_TEXT" />
+      <mapping pattern="B737_Jam_Bent_Stresses" type="PLAIN_TEXT" />
       <mapping pattern="B737_Jam_Straight_Reaction_Forces" type="PLAIN_TEXT" />
-      <mapping pattern="B737_Bending_Stresses" type="PLAIN_TEXT" />
       <mapping pattern="B737_Bending_Deflection" type="PLAIN_TEXT" />
       <mapping pattern="TESTFILE" type="PLAIN_TEXT" />
-      <mapping pattern="B737_Jam_Bent_Stresses" type="PLAIN_TEXT" />
       <mapping pattern="B737_Bending_Reaction_Forces" type="PLAIN_TEXT" />
       <mapping pattern="B737_Jam_Bent_Deflection" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
