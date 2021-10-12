@@ -22,9 +22,13 @@
           <option name="url" value="https://github.com/flushedmeat/ECHO1.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/flushedmeat/AeroEngineAssign3.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="$USER_HOME$/OneDrive/TUDelft" />
+    <option name="cloneParentDir" value="$USER_HOME$/OneDrive/TUDelft/Master" />
   </component>
   <component name="Vcs.Log.App.Settings">
     <option name="COLUMN_ORDER">
